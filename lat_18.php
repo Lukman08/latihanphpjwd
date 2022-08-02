@@ -6,7 +6,7 @@
 
 <body>
     <?php 
-    $english = date("l");
+    $english_day = date("l");
     switch ($english_day) 
     { 
         case "Monday": 

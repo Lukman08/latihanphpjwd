@@ -54,83 +54,83 @@ $total_harga_dibayar = $total_harga - $nilai_diskon;
                 <td><b>Harga Satuan</b></td>
                 <td><b>Jumlah Harga</b></td>
             </tr>
-            <? //Mulai untuk mengisi tabel daftar dengan data yang ada ?>
+            <?php //Mulai untuk mengisi tabel daftar dengan data yang ada ?>
             <tr>
                 <td align="left">
-                    <? echo "$alat_perangkat_cpu1"; ?>
+                    <?php echo "$alat_perangkat_cpu1"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$jumlah_alat_perangkat_cpu1"; ?>
+                    <?php echo "$jumlah_alat_perangkat_cpu1"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$harga_alat_perangkat_cpu1"; ?>
+                    <?php echo "$harga_alat_perangkat_cpu1"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$total_alat_perangkat_cpu1"; ?>
+                    <?php echo "$total_alat_perangkat_cpu1"; ?>
                 </td>
             </tr>
             <tr>
                 <td align="left">
-                    <? echo "$alat_perangkat_cpu2"; ?>
+                    <?php echo "$alat_perangkat_cpu2"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$jumlah_alat_perangkat_cpu2"; ?>
+                    <?php echo "$jumlah_alat_perangkat_cpu2"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$harga_alat_perangkat_cpu2"; ?>
+                    <?php echo "$harga_alat_perangkat_cpu2"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$total_alat_perangkat_cpu2"; ?>
+                    <?php echo "$total_alat_perangkat_cpu2"; ?>
                 </td>
             </tr>
             <tr>
                 <td align="left">
-                    <? echo "$alat_perangkat_cpu3"; ?>
+                    <?php echo "$alat_perangkat_cpu3"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$jumlah_alat_perangkat_cpu3"; ?>
+                    <?php echo "$jumlah_alat_perangkat_cpu3"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$harga_alat_perangkat_cpu3"; ?>
+                    <?php echo "$harga_alat_perangkat_cpu3"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$total_alat_perangkat_cpu3"; ?>
+                    <?php echo "$total_alat_perangkat_cpu3"; ?>
                 </td>
             </tr>
             <tr>
                 <td align="left">
-                    <? echo "$alat_perangkat_cpu4"; ?>
+                    <?php echo "$alat_perangkat_cpu4"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$jumlah_alat_perangkat_cpu4"; ?>
+                    <?php echo "$jumlah_alat_perangkat_cpu4"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$harga_alat_perangkat_cpu4"; ?>
+                    <?php echo "$harga_alat_perangkat_cpu4"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$total_alat_perangkat_cpu4"; ?>
+                    <?php echo "$total_alat_perangkat_cpu4"; ?>
                 </td>
 
             </tr>
             <tr>
                 <td colspan="3" align="right">Total Harga</td>
                 <td align="right">
-                    <? echo "$total_harga"; ?>
+                    <?php echo "$total_harga"; ?>
                 </td>
             </tr>
             <tr>
                 <td colspan="3" align="right">
                     Diskon
-                    <? echo "($diskon% )"; ?>
+                    <?php echo "($diskon% )"; ?>
                 </td>
                 <td align="right">
-                    <? echo "$nilai_diskon"; ?>
+                    <?php echo "$nilai_diskon"; ?>
                 </td>
             </tr>
             <tr>
                 <td colspan="3" align="right"> Jumlah harus dibayar</td>
                 <td align="right">
-                    <? echo "$total_harga__dibayar"; ?>
+                    <?php echo "$total_harga_dibayar"; ?>
                 </td>
             </tr>
         </table>
